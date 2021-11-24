@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #888;
+    background-image:url(./multimedia/background3.jpg);
+}
+
+@media only screen and (max-width: 320px) {
+    body {color: green;
+        background-color: hotpink;
+        font-size: 80px;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    body {color: rgb(112, 64, 224);
+        background-color: rgb(185, 204, 19);
+        font-size: 65px;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {color:red;
+        background-color:slateblue;
+        font-size: 70px;
+    
+    }
+    
+}
+
+.logoimg {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    background-color: #3f4041;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+nav a:hover {
+    color: #d65905;
+}
+
+.dropdown-menu {
+    background-color: #3f4041;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #d65905;
+    background-color: #3f4041;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #d65905;
+}
+/* nav ul li {
+    display: inline-block;
+    position: relative;
+} */
+
+/* nav ul ul {
+    position: absolute;
+    display: none;
+    font-size: 35px;
+} */
+
+/* nav ul li:hover ul {
+    display: block;
+} */
+
+/* nav ul ul li {
+    background-color: #9abce5;
+    width: 240px;
+    padding: 5px;
+} */
+
+.videoIndex {
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.videoIndex video {
+    width: 100%;
+}
+
+.textoVideo {
+    text-align: center;
+    position: absolute;
+}
+
+.textoVideo h1{
+    padding: 10px 415px;
+    font-size: 80px;
+
+}
+
+.textoVideo a {
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.rounded {
+    width: 300px;
+    height: 175px;
+}
+
+.pNews1 {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    grid-area: pNews1;
+    justify-self:center;
+    width: 300px;
+    height: auto;
+}
+
+.pNews1 img{
+    width: 100%;
+}
+
+.pNews2 {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    grid-area: pNews2;
+    justify-self:center;
+    width: 300px;
+    height: auto;
+}
+
+.pNews2 img{
+    width: 100%;
+}
+
+.pNews3 {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    grid-area: pNews3;
+    justify-self:center;
+    width: 300px;
+    height: auto;
+}
+
+.pNews3 img{
+    width: 100%;
+}
+
+.pNews4 {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    grid-area: pNews4;
+    justify-self:center;
+    width: 300px;
+    height: auto;
+}
+
+.pNews4 img{
+    width: 100%;
+}
+
+.imagenEBCB {
+   width: 100%;
+   max-width: 1920px;
+   margin: 0px;
+   position: relative;
+
+   display: flex;
+   align-items: center;
+}
+
+.imagenEBCB img {
+    width: 100%;
+}
+
+.tituloEBCB {
+    text-align: center;
+    position: absolute;
+}
+
+.tituloEBCB h2{
+    color: #fff;
+    padding: 10px 20px;
+
+}
+
+.tituloEBCB p{
+    color: #fff;
+    padding: 10px 20px;
+}
+.learnMore {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.gallery {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    padding-inline-end: 30px;
+    padding-inline-start: 30px;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.ssGallery {
+    width: 400px;
+    height: 250px;
+}
+
+.backToTop {
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+
+.backToTop:hover {
+    color:#d65905
+}
+
+.subLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSubnautica {
+    width: 500px;
+    height: 70px;
+}
+
+.social {
+    width: 98%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.redes {
+    width: 50px;
+    height: 30px;
+}
+
+.news {
+    animation-name: news;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1s;
+}
+
+.newsIndex {
+    padding:0;
+    margin:0;
+    animation-name: newsIndex;
+    animation-duration: 3s;
+    animation-iteration-count: 1.5s;
+    background-color: none;
+    height: auto;
+    width: 100%;
+    max-width: 1920px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    display: grid;  
+    grid-template-areas: "pNews1 pNews2 pNews3 pNews4";
+
+}
+
+/* p:hover {
+    color: red
+} */
+
+@keyframes news {
+    from {
+        opacity: 0;
+        transform: translate(-500px);
+
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes newsIndex {
+    from {
+        opacity: 0;
+        transform: translate(-500px);
+
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
